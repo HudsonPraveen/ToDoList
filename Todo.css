@@ -1,0 +1,77 @@
+html,
+body{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+#wrapper h2{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #ffeba7;
+    letter-spacing: 1px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    height: 2.5em;
+    width: 250px;
+    padding-left: 10px;
+}
+
+input:active{
+    border: none;
+}
+
+#wrapper{
+    height: 450px ;
+    width: 400px ;
+    margin: 200px auto;
+    background: linear-gradient(deeppink,purple);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+button{
+    margin-top: 20px;
+    background: linear-gradient(coral,goldenrod);
+    border-radius: 4px;
+    height: 38px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+}
+
+button:hover{
+    cursor:pointer;
+    background: linear-gradient(goldenrod,coral);
+}
+
+#todoList{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    text-transform:capitalize;
+    margin-left: 5px;
+}
+
+#todoList p{
+    margin: 10px 0px;
+}
+
+#todoList p:hover{
+    color: deepskyblue;
+    transition: .3s;
+}
+
+#todoList p:hover{
+    cursor: pointer;
+}
+
+
+
